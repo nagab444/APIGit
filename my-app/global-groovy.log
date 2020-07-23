@@ -1,0 +1,40 @@
+2020-07-24 00:50:57,584 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+            <email>na2@gmail.com</email>
+            <firstname>naa1</firstname>
+            <lastname>naa2</lastname>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-07-24 00:51:09,626 INFO  [log] com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@38c33088
+2020-07-24 00:51:09,640 INFO  [log] the status is FINISHED
+2020-07-24 00:51:09,641 INFO  [log] the time taken is 11983
+2020-07-24 00:51:09,661 INFO  [log] the number of teststeps executed are 7
+2020-07-24 00:51:18,753 INFO  [log] Status: FINISHED, time taken for TestCase was: 8955 ms
+2020-07-24 00:51:18,757 INFO  [log] Number of test steps which ran: 7
+2020-07-24 00:51:19,419 INFO  [log] Total no of Rows are: 4
+2020-07-24 00:51:19,421 INFO  [log] Total no of columns are: 3
+2020-07-24 00:51:19,437 INFO  [log] email is naga900@gmail.com
+2020-07-24 00:51:19,437 INFO  [log] firstname is naga901
+2020-07-24 00:51:19,437 INFO  [log] lastname is wel901
+2020-07-24 00:51:27,246 INFO  [log] Number of steps executed7
+2020-07-24 00:51:27,247 INFO  [log] email is naga901@gmail.com
+2020-07-24 00:51:27,248 INFO  [log] firstname is naga902
+2020-07-24 00:51:27,248 INFO  [log] lastname is wel902
+2020-07-24 00:51:34,838 INFO  [log] Number of steps executed7
+2020-07-24 00:51:34,839 INFO  [log] email is naga902@gmail.com
+2020-07-24 00:51:34,839 INFO  [log] firstname is naga903
+2020-07-24 00:51:34,840 INFO  [log] lastname is wel903
+2020-07-24 00:51:42,239 INFO  [log] Number of steps executed7
+2020-07-24 00:51:42,241 INFO  [log] email is naga903@gmail.com
+2020-07-24 00:51:42,241 INFO  [log] firstname is naga904
+2020-07-24 00:51:42,248 INFO  [log] lastname is wel904
+2020-07-24 00:51:49,464 INFO  [log] Number of steps executed7
+2020-07-24 00:51:49,880 INFO  [log] count is 2
+2020-07-24 00:51:49,895 INFO  [log] email is na@gmail.com
+2020-07-24 00:51:49,896 INFO  [log] firstname is na1
+2020-07-24 00:51:49,897 INFO  [log] lastname is na2
