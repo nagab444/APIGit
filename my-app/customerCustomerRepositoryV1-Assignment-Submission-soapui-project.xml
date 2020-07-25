@@ -1530,16 +1530,18 @@ def Custid = holder.getNodeValue("//*:id")
 
 context.testCase.setPropertyValue("id",Custid)
 context.testCase.testSuite.setPropertyValue("id",Custid)
-context.testCase.testSuite.project.setPropertyValue("id",Custid)</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="goto" name="Conditional Goto" id="86fed187-3515-431b-a24f-e7e1bc9d8dcf"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>Condition 1</con:name><con:type>XPATH</con:type><con:expression>declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
+context.testCase.testSuite.project.setPropertyValue("id",Custid)
+
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="goto" name="Conditional Goto" id="86fed187-3515-431b-a24f-e7e1bc9d8dcf"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>Condition 1</con:name><con:type>XPATH</con:type><con:expression>declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
 declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 
-//*:firstname='nagainvalid'</con:expression><con:targetStep>Delete_By_Id</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="request" name="Get_By_ID" id="fc4e2f81-9acc-4e92-817f-b8644ee15931"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1GetById</con:operation><con:request name="Get_By_ID" id="7a79150a-907f-4e3d-8a1a-ee7c2398e667"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#TestCase#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">\r
-   <soap:Header/>\r
-   <soap:Body>\r
-      <def:customerCustomerRepositoryV1GetByIdRequest>\r
-         <customerId>${Create_New_Cust#Response#//*:id}</customerId>\r
-      </def:customerCustomerRepositoryV1GetByIdRequest>\r
-   </soap:Body>\r
+//*:firstname='nagainvalid'</con:expression><con:targetStep>Delete_By_Id</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="request" name="Get_By_ID" id="fc4e2f81-9acc-4e92-817f-b8644ee15931"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1GetById</con:operation><con:request name="Get_By_ID" id="7a79150a-907f-4e3d-8a1a-ee7c2398e667"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#TestCase#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1GetByIdRequest>
+         <customerId>${Create_New_Cust#Response#//*:id}</customerId>
+      </def:customerCustomerRepositoryV1GetByIdRequest>
+   </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="207a2f76-7e80-46de-a9db-3eb70a794313"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="Get_All_Cust" id="2b2bb14e-c570-4f26-996c-1283c5489fb7"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1GetList</con:operation><con:request name="Get_All_Cust" id="d2e432d9-21b6-4ae3-aade-64e25407ce73"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#TestCase#Authorization}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">\r
    <soap:Header/>\r
    <soap:Body>\r
@@ -1556,33 +1558,23 @@ declare namespace env='http://www.w3.org/2003/05/soap-envelope';
          <customerId>${Create_New_Cust#Response#//*:id}</customerId>\r
       </def:customerCustomerRepositoryV1DeleteByIdRequest>\r
    </soap:Body>\r
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="290ead99-ae54-4d19-b51f-75042a6efdfd"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Authorization</con:name><con:value>Bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um</con:value></con:property><con:property><con:name>id</con:name><con:value>4429</con:value></con:property></con:properties></con:testCase><con:testCase id="4cc8c056-879f-4122-b9bc-26b70fd23f81" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CustomerRepository_System_Testing" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script to run Create_New_Cust" id="16a70f4c-3cb0-4c70-a628-8f5d0df59a72"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder 
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="290ead99-ae54-4d19-b51f-75042a6efdfd"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Authorization</con:name><con:value>Bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um</con:value></con:property><con:property><con:name>id</con:name><con:value>4483</con:value></con:property></con:properties></con:testCase><con:testCase id="4cc8c056-879f-4122-b9bc-26b70fd23f81" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CustomerRepository_System_Testing" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script to run ETE Flow" id="16a70f4c-3cb0-4c70-a628-8f5d0df59a72"><con:settings/><con:config><script>import com.eviware.soapui.support.XmlHolder 
 
-def tc = testRunner.testCase.testSuite.project.testSuites["customerCustomerRepositoryV1_ETE_Functional_Testing"].testCases["ETE_Functional_TestCase_Property_Transfer"].getTestStepByName("Create_New_Cust").getPropertyValue("Request")
-log.info tc
-def holder = new XmlHolder(tc)
 
-holder.setNodeValue("//*:email","nagatest1@gmail.com")
-holder.setNodeValue("//*:firstname","nagainvalid")
-holder.setNodeValue("//*:lastname","naga1231")
+// Dynamically passing values to Properties file to run ETE Flow
+testRunner.testCase.testSuite.project.testSuites['customerCustomerRepositoryV1_ETE_Functional_Testing'].testCases['ETE_Functional_TestCase_Property_Transfer'].getTestStepByName("Datasetup").setPropertyValue("email","nag1212@gmail.com")
 
-def updated = holder.getXml()
-testRunner.testCase.testSuite.project.testSuites['customerCustomerRepositoryV1_ETE_Functional_Testing'].testCases['ETE_Functional_TestCase_Property_Transfer'].getTestStepByName("Create_New_Cust").setPropertyValue("Request",updated)
+testRunner.testCase.testSuite.project.testSuites['customerCustomerRepositoryV1_ETE_Functional_Testing'].testCases['ETE_Functional_TestCase_Property_Transfer'].getTestStepByName("Datasetup").setPropertyValue("firstname","nagainv")
+testRunner.testCase.testSuite.project.testSuites['customerCustomerRepositoryV1_ETE_Functional_Testing'].testCases['ETE_Functional_TestCase_Property_Transfer'].getTestStepByName("Datasetup").setPropertyValue("lastname","nag1212")
 
 def tt = testRunner.testCase.testSuite.project.testSuites['customerCustomerRepositoryV1_ETE_Functional_Testing'].testCases['ETE_Functional_TestCase_Property_Transfer']
 def runner= tt.run(null,false)
-
-log.info runner
 
 log.info "the status is " + runner.status
 
 log.info "the time taken is " + runner.timeTaken
 
 log.info "the number of teststeps executed are " + runner.results.size()
-
-
-
-
 
 
 
@@ -1698,4 +1690,4 @@ def runner = tc.run(null,false)
 log.info "Number of steps executed" + runner.results.size()
 
   }
-</script></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>id</con:name><con:value>4429</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>id</con:name><con:value>4429</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>id</con:name><con:value>4483</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>id</con:name><con:value>4483</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

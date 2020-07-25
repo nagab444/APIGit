@@ -38,3 +38,35 @@
 2020-07-24 00:51:49,895 INFO  [log] email is na@gmail.com
 2020-07-24 00:51:49,896 INFO  [log] firstname is na1
 2020-07-24 00:51:49,897 INFO  [log] lastname is na2
+2020-07-25 17:38:29,355 INFO  [log] the status is FINISHED
+2020-07-25 17:38:29,356 INFO  [log] the time taken is 10437
+2020-07-25 17:38:29,371 INFO  [log] the number of teststeps executed are 7
+2020-07-25 17:38:38,872 INFO  [log] Status: FINISHED, time taken for TestCase was: 9421 ms
+2020-07-25 17:38:38,874 INFO  [log] Number of test steps which ran: 7
+2020-07-25 17:38:39,462 INFO  [log] Total no of Rows are: 4
+2020-07-25 17:38:39,463 INFO  [log] Total no of columns are: 3
+2020-07-25 17:38:39,480 INFO  [log] email is naga900@gmail.com
+2020-07-25 17:38:39,482 INFO  [log] firstname is naga901
+2020-07-25 17:38:39,485 INFO  [log] lastname is wel901
+2020-07-25 17:38:49,913 INFO  [log] Number of steps executed7
+2020-07-25 17:38:49,914 INFO  [log] email is naga901@gmail.com
+2020-07-25 17:38:49,914 INFO  [log] firstname is naga902
+2020-07-25 17:38:49,915 INFO  [log] lastname is wel902
+2020-07-25 17:38:59,740 INFO  [log] Number of steps executed7
+2020-07-25 17:38:59,740 INFO  [log] email is naga902@gmail.com
+2020-07-25 17:38:59,741 INFO  [log] firstname is naga903
+2020-07-25 17:38:59,741 INFO  [log] lastname is wel903
+2020-07-25 17:41:36,302 INFO  [log] Number of steps executed7
+2020-07-25 17:41:36,302 INFO  [log] email is naga903@gmail.com
+2020-07-25 17:41:36,302 INFO  [log] firstname is naga904
+2020-07-25 17:41:36,302 INFO  [log] lastname is wel904
+2020-07-25 17:41:48,708 INFO  [log] Number of steps executed7
+2020-07-25 17:41:49,060 INFO  [log] count is 2
+2020-07-25 17:41:49,073 INFO  [log] email is na@gmail.com
+2020-07-25 17:41:49,079 INFO  [log] firstname is na1
+2020-07-25 17:41:49,081 INFO  [log] lastname is na2
+2020-07-25 17:41:58,242 INFO  [log] Number of steps executed7
+2020-07-25 17:41:58,250 INFO  [log] email is na2@gmail.com
+2020-07-25 17:41:58,251 INFO  [log] firstname is naa1
+2020-07-25 17:41:58,252 INFO  [log] lastname is naa2
+2020-07-25 17:42:06,301 INFO  [log] Number of steps executed7
